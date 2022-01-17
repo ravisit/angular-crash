@@ -1,0 +1,23 @@
+.container{
+    border:1px solid rgba(0, 0, 0, 0.3);
+     width: 300px;
+    height: 100px; 
+    position: relative;
+    margin: 20px;
+    padding: 10px;
+}
+
+.container-arrow{
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    position: absolute;
+}
+
+.container-arrow-lt{
+    left: 0;
+    top: 12px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    border-left: 1px solid rgba(0, 0, 0, 0.3);
+    transform: translate(-50%, 50%) rotate(45deg);
+}
